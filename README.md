@@ -95,7 +95,7 @@ Standard trackers discard low-score detections, losing tracks when fish occlude 
 - Each fish is assigned a persistent integer `track_id` (e.g. `Fish #1`, `Fish #2`).
 
 ### Why We Do NOT Simply Sum Detections
-If 10 fish swim in a 30 FPS video for 10 seconds (300 frames), a simple detector outputs `10 × 300 = 3,000` detections. SatoLeo Count registers each unique track ID once, yielding the true count of **10 fish**.
+If 10 fish swim in a 30 FPS video for 10 seconds (300 frames), a simple detector outputs `10 × 300 = 3,000` detections. SatoLeo Count registers each unique track ID once, yieldingthe true count of **10 fish**.
 
 ---
 
@@ -291,5 +291,6 @@ To use a smartphone camera in the hatchery:
 1. Run backend on your local server or laptop connected to the same Wi-Fi.
 2. Open `http://<YOUR_LOCAL_IP>:3000` on your smartphone browser.
 3. Tap **Switch Camera** to toggle to the phone's high-resolution rear camera.
-#   a i - c o u n t -  
+#   a i - c o u n t - 
+ 
  
