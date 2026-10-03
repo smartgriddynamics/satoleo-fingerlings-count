@@ -1,0 +1,9 @@
+path: D:\satoleo fish count\dataset\custom
+train: images
+val: images
+
+names:
+  0: 'Fish'
+  1: 'Fish Egg'
+  2: 'Fingerling'
+  3: 'Rj45'

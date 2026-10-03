@@ -1,0 +1,15 @@
+# SatoLeo Fish Fingerling Dataset Configuration
+# CVAT YOLO 1.1 Format
+
+# Dataset Root Paths
+path: ../dataset # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Number of Classes
+nc: 1
+
+# Class Names
+names:
+  0: fish
