@@ -4,6 +4,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/satoleo-fingerlings-count/',
   plugins: [react(), basicSsl()],
   server: {
     port: 3000,
