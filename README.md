@@ -295,4 +295,5 @@ To use a smartphone camera in the hatchery:
  
  #   a i - c o u n t -  
  #   a i - c o u n t -  
+ #   s a t o l e o - f i n g e r l i n g s - c o u n t  
  
